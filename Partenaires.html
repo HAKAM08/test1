@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nos Partenaires - WTP</title>
+  <style>
+    /* Reset default browser styles */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Set a base font size and family */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input[type="text"] {
+      padding: 5px;
+      border: none;
+      border-radius: 3px;
+      margin-right: 5px;
+    }
+
+    .search-bar button {
+      padding: 5px 10px;
+      background-color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+             transition: color 0.3s ease; /* Add smooth color transition on hover */
+
+    }
+        nav a:hover {
+      color: #ffcc00; /* Change color on hover */}
+        /* Search bar styles */
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+    /* Slideshow styles */
+    #slideshow-container {
+      max-width: 100%;
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .slideshow-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 5s ease-in-out;
+    }
+    
+    .active {
+      opacity: 1;
+    }
+    
+    /* Partners & Suppliers section styles */
+    section#partners {
+      padding: 20px;
+    }
+    
+    section#partners h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .partner-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
+    
+    .partner-card {
+      background-color: #cfd4d3;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .partner-card:hover {
+      transform: scale(1.15);
+    }
+    
+    .partner-card img {
+      width: 100%;
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Navigation menu -->
+    <nav>
+      <ul>
+        <li><a href="file:///C:/Users/hakam/OneDrive/Bureau/Main.html">🏠WTP</a></li>
+        <li  div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Chercher sur RepXpert" />
+    <button onclick="performSearch()">Rechercher</button>
+        </li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li><a href="file:///C:/Users/hakam/OneDrive/Bureau/Partenaires.html">Nos Partenaires</a></li>
+        <li><a href="file:///C:/Users/hakam/OneDrive/Bureau/About.html">A Propos</a></li>
+        <li><a href="file:///C:/Users/hakam/OneDrive/Bureau/Contact.html">Contactez Nous</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="slideshow-container">
+    <img class="slideshow-image active" src="https://www.scania.com/content/www/ma/fr/home/services/_jcr_content/image.img.90.992.jpeg/1643034646925.jpeg" alt="Slideshow Image">
+    <img class="slideshow-image" src="https://www.scania.com/content/www/fr/fr/home/services/repair-and-maintenance/scania-oil/_jcr_content/image.img.90.992.jpeg/1684846035865.jpeg" alt="Slideshow Image">
+    <img class="slideshow-image" src="https://images.squarespace-cdn.com/content/v1/58adeba13a0411785a575774/1489785999446-X1DMD0D0HF648LMNI46K/tesco_home.jpg?format=2500w" alt="Slideshow Image">
+  </div>
+  
+  <section id="partners">
+    <h2>Partenaires et Fournisseurs</h2>
+    <h3 style="color:#333 ;">Chez nous vous trouverez les produits des marques ci-dessous:</h3>
+    <div class="partner-grid">
+      <div class="partner-card">
+                 <br><br>        <br>
+
+        <img src="https://www.monroe.com/content/dam/marketing/emea/fmmp/brands/Monroe-logo-nav.png" alt="Partner 1">
+                 <br><br>       
+
+        <h3>MONROE</h3>
+        <p>Belgique</p>
+      </div>
+      <div class="partner-card">
+
+        <img src="https://logonoid.com/images/ruville-logo.jpg" alt="Partner 2">
+        <h3>RUVILLE</h3>
+        <p>Allemagne</p>
+      </div>
+            <div class="partner-card">
+        <img src="https://seeklogo.com/images/K/Knorr-Bremse-logo-110FDB94E4-seeklogo.com.png" alt="Partner 2">
+        <h3>KNORR BREMSE</h3>
+        <p>France</p>
+      </div>    
+        <div class="partner-card">
+        <img src="https://www.kothros.com/media/upload-files/cache/5a0/5a03da1a2798c0674314ee3bb2b58387_2015020515039_rota.png" alt="Partner 2">
+        <h3>ROTA</h3>
+        <p>Turquie</p>
+      </div>
+      <div class="partner-card">
+        <img src="https://mb.cision.com/Public/9800/0/b3fac818a5a38634_org.jpg" alt="Partner 2">
+        <h3>DT</h3>
+        <p>Allemagne</p>
+      </div>
+      <div class="partner-card">
+        <img src="https://www.lema-parts.it/images/cei_lema_px.jpg" alt="Partner 2">
+        <h3>LEMA/CEI</h3>
+        <p>Italie</p>
+      </div>
+      <div class="partner-card">
+        <img src="https://play-lh.googleusercontent.com/_X4e-0heRee_g5Kk38dps4uUOGt-gdg_zQVfQMH4Xeua4_DxXaIWkJnkA18kiC4lHw" alt="Partner 2">
+        <h3>REN-PAR</h3>
+        <p>Turquie</p>
+      </div>
+      <div class="partner-card">
+        <br><br>
+        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/ca/Borgwarner_logo.svg/2560px-Borgwarner_logo.svg.png" alt="Partner 2">
+         <br><br>        <br>
+
+      
+        <h3>BorgWarner</h3>
+        <p>Allemagne</p>
+      </div>
+      <div class="partner-card">
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Prestolite_Electric_logo.svg/2560px-Prestolite_Electric_logo.svg.png" alt="Partner 2">
+        <br><br>
+        <h3>PRESTOLITE</h3>
+        <p>France</p>
+      </div>
+      <div class="partner-card">
+        <br><br>
+        <img src="https://logos-download.com/wp-content/uploads/2021/01/Nural_by_Federal-Mogul_Motorparts_Logo.png" alt="Partner 2">
+        <h3><br>NURAL</h3>
+        <p>Allemagne</p>
+      </div>
+      <div class="partner-card">
+        <img src="https://www.sampa.com/ui/img/sampa_logo.png" alt="Partner 2">
+        <h3>SAMPA</h3>
+        <p>Turquie</p>
+      </div>
+      <div class="partner-card">
+        <img src="https://cdn.worldvectorlogo.com/logos/febi-bilstein.svg" alt="Partner 2">
+        <h3>FEBI BILSTEIN</h3>
+        <p>Allemagne</p>
+      </div>
+      <!-- Add more partner cards -->
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy;  2023 World Truck Parts. Tous droits sont réservés.</p>
+  </footer>
+
+  <script>
+    const slideshowImages = document.querySelectorAll('.slideshow-image');
+    let currentImageIndex = 0;
+
+    function startSlideshow() {
+      setInterval(() => {
+        slideshowImages[currentImageIndex].classList.remove('active');
+        currentImageIndex = (currentImageIndex + 1) % slideshowImages.length;
+        slideshowImages[currentImageIndex].classList.add('active');
+      }, 5000);
+    }
+
+    startSlideshow();
+        startSlideshow();
+        function performSearch() {
+      var query = document.getElementById("searchInput").value;
+      var searchUrl = "https://www.repxpert.ma/fr/search/results?q=" + encodeURIComponent(query);
+      
+      // Open the search URL in a new tab or window
+      window.open(searchUrl, "_blank");
+    }
+
+  </script>
+</body>
+</html>
